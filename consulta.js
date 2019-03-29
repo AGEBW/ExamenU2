@@ -13,6 +13,7 @@ Product.find({},function(error,docs){
         console.log(error);
         process.exit(1);
     }
+
     console.log(docs);
 })
 /*
